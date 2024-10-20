@@ -1,0 +1,144 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #34495e;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-content li {
+    width: 150px;
+}
+
+.dropdown-content li a {
+    color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #3498db;
+    color: white;
+}
+
+#contact {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#contact i {
+    margin-right: 10px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+#contact p {
+    margin: 10px 0;
+}
+.galleri {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+.galleri img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.8s ease;
+}
+.galleri img:hover {
+    transform: scale(1.05);/*x y*/
+}
+.galleri p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
